@@ -76,7 +76,7 @@ public class Serie implements Entregable{
 
     @Override
     public void devolver() {
-        prestado = true;
+        prestado = false;
     }
 
     @Override
